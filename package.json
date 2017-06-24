@@ -1,0 +1,26 @@
+{
+  "name": "bubblesort-javascript",
+  "version": "1.0.0",
+  "description": "Bubble sort implemented in JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unjammy/bubblesort-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unjammy/bubblesort-javascript/issues"
+  },
+  "homepage": "https://github.com/unjammy/bubblesort-javascript#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
