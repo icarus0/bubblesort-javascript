@@ -13,4 +13,11 @@ describe('Bubble Sort', function(){
     expect(evilTest[evilTest.length - 1]).to.equal(1);
   });
 
+  it('should sort an array', function(){
+    module.bubbleSort(evilTest);
+    expect(evilTest).to.be.an('array');
+    expect(evilTest[0]).to.equal(1);
+    expect(evilTest[evilTest.length - 1]).to.equal(9);
+  });
+
 });
